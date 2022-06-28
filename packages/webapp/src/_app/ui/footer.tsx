@@ -29,7 +29,7 @@ export const Footer = () => (
                         <li>
                             <Link
                                 className="text-gray-400"
-                                href="https://www.notion.so/edenos/Getting-an-Invite-2d38947d5be94dcb84dfa1ae48894802"
+                                href="https://help.eossupport.io/en/articles/5889842-how-to-join-the-genesis-english-eden-on-eos-community"
                                 isExternal
                                 target="_blank"
                             >
@@ -39,11 +39,11 @@ export const Footer = () => (
                     </nav>
                     <div className="flex items-center space-x-1 mb-6">
                         <Image
-                            src="/images/clarion-logo.svg"
-                            alt="Clarion logo"
+                            src="/images/eden-logo-small.svg"
+                            alt="Eden logo"
                             className="h-4"
                         />
-                        <p className="text-gray-400">ClarionOS</p>
+                        <p className="text-gray-400">EDEN</p>
                     </div>
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 w-full">
@@ -54,11 +54,21 @@ export const Footer = () => (
                         <li>
                             <Link
                                 className="text-gray-400"
-                                href="https://www.notion.so/edenos/Eden-Peace-Treaty-5b15633ca09c4c6495a5b60f7bc92db2"
+                                href="https://eoscommunity.notion.site/Eden-Peace-Treaty-9381824206ce43ac84199861a5d60020"
                                 isExternal
                                 target="_blank"
                             >
                                 Eden Peace Treaty
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                className="text-gray-400"
+                                href="https://eoscommunity.notion.site/Active-bylaws-66b7d4661ba342759e82b3eef1bcdd3b"
+                                isExternal
+                                target="_blank"
+                            >
+                                Eden bylaws
                             </Link>
                         </li>
                         <li>
@@ -74,7 +84,7 @@ export const Footer = () => (
                         <li>
                             <Link
                                 className="text-gray-400"
-                                href="https://www.notion.so/edenos/Eden-d1446453c66c4919b110dfdce20dc56f"
+                                href="https://eoscommunity.notion.site/Eden-86ec758b069947a8b0e3d6aca2549813"
                                 target="_blank"
                                 isExternal
                             >
@@ -84,17 +94,7 @@ export const Footer = () => (
                         <li>
                             <Link
                                 className="text-gray-400"
-                                href="https://www.notion.so/edenos/EdenOS-Roadmap-7d75dbcf386c436c9c1738b7a3eea8f2"
-                                target="_blank"
-                                isExternal
-                            >
-                                EdenOS Roadmap
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                className="text-gray-400"
-                                href="https://github.com/eoscommunity/Eden"
+                                href="https://github.com/EOS-Support/Eden"
                                 target="_blank"
                                 isExternal
                             >
