@@ -8,12 +8,12 @@ export const LearnMoreCTA = ({ className = "" }: Props) => (
     <div className={className}>
         <Container className="space-y-2.5">
             <Heading size={3}>
-                Eden is a community working to maximize the power and
-                independence of its members, thereby securing life, liberty,
-                property, and justice for all.
+                EOS support squads coordinate, build consensus and
+                elect delegates to spend pooled funds on projects
+                they see fit and gain respect.
             </Heading>
             <Button
-                href="http://eden.eoscommunity.org"
+                href="https://eossupport.io"
                 className="flex-shrink-0 mt-10 sm:mt-0"
                 target="_blank"
                 isExternal
