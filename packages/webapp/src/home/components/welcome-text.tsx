@@ -17,12 +17,11 @@ export default WelcomeText;
 
 const FirstParagraph = ({ className = "" }: { className?: string }) => (
     <div className={"space-y-2.5 " + className}>
-        <Heading size={2}>Welcome to Eden</Heading>
+        <Heading size={2}>Welcome to EOS Respect</Heading>
         <Text>
-            A team of people can be more powerful than the sum of its members,
-            but all teams need a means to reach consensus, or they will fall
-            apart. Unfortunately, traditional democratic processes end up
-            empowering politicians and disempowering the people who participate.
+            EOS Respect creates the opportunity for community members to pool
+            money, align with those that will be voted to receive funds and
+            allocate those funds for EOS support's interest.
         </Text>
     </div>
 );
@@ -30,20 +29,18 @@ const FirstParagraph = ({ className = "" }: { className?: string }) => (
 const SecondParagraph = ({ className = "" }: { className?: string }) => (
     <div className={"space-y-2.5 " + className}>
         <Text>
-            EdenOS is a revolutionary new democratic process that protects and
-            enhances the independence and power of those who join. When you join
-            the Eden community, you gain access to a group of people working
-            together to empower you and your family to make a bigger impact in
-            the world.
+            Individual members can maximize their independence by becoming
+            an EOS support squad member and just recieving some pooled funds
+            and collaborating for the betterment of EOS and EOS support.
         </Text>
         <Text>
-            To learn more about Eden and how you can get involved, visit{" "}
+            To learn more, visit{" "}
             <Link
-                href="http://eden.eoscommunity.org"
+                href="http://eosrespect.io"
                 target="_blank"
                 isExternal
             >
-                eden.eoscommunity.org
+                eosrespect.io
             </Link>
             .
         </Text>
