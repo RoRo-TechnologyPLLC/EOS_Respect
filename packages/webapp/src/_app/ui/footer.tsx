@@ -7,7 +7,7 @@ export const Footer = () => (
             <div className="flex-grow flex flex-wrap">
                 <div className="lg:w-1/4 md:w-1/2 w-full">
                     <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-1">
-                        EDEN
+                        EOS Respect
                     </h2>
                     <nav className="list-none mb-5">
                         <li>
@@ -29,21 +29,21 @@ export const Footer = () => (
                         <li>
                             <Link
                                 className="text-gray-400"
-                                href="https://help.eossupport.io/en/articles/5889842-how-to-join-the-genesis-english-eden-on-eos-community"
+                                href="https://www.notion.so/eoscommunity/EOS-Support-Squad-a22666b89d544be1a0b2f27eb06ec8ce"
                                 isExternal
                                 target="_blank"
                             >
-                                Get an Invite
+                                Become a member
                             </Link>
                         </li>
                     </nav>
                     <div className="flex items-center space-x-1 mb-6">
                         <Image
-                            src="/images/eden-logo-small.svg"
-                            alt="Eden logo"
+                            src="/images/eos-respect-logo-small.png"
+                            alt="EOS Respect logo"
                             className="h-4"
                         />
-                        <p className="text-gray-400">EDEN</p>
+                        <p className="text-gray-400"> EOS Respect </p>
                     </div>
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 w-full">
@@ -54,51 +54,31 @@ export const Footer = () => (
                         <li>
                             <Link
                                 className="text-gray-400"
-                                href="https://eoscommunity.notion.site/Eden-Peace-Treaty-9381824206ce43ac84199861a5d60020"
+                                href="https://www.notion.so/eoscommunity/EOS-Support-Bylaws-dd63860bf4cf431cb75839e675d21725"
                                 isExternal
                                 target="_blank"
                             >
-                                Eden Peace Treaty
+                                EOS-Support bylaws
                             </Link>
                         </li>
                         <li>
                             <Link
                                 className="text-gray-400"
-                                href="https://eoscommunity.notion.site/Active-bylaws-66b7d4661ba342759e82b3eef1bcdd3b"
+                                href="http://eossupport.io"
                                 isExternal
                                 target="_blank"
                             >
-                                Eden bylaws
+                                EOS-Support
                             </Link>
                         </li>
                         <li>
                             <Link
                                 className="text-gray-400"
-                                href="http://eden.eoscommunity.org"
-                                isExternal
-                                target="_blank"
-                            >
-                                Eden on EOS
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                className="text-gray-400"
-                                href="https://eoscommunity.notion.site/Eden-86ec758b069947a8b0e3d6aca2549813"
+                                href="https://eosrespect.io"
                                 target="_blank"
                                 isExternal
                             >
-                                Eden Public Wiki
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                className="text-gray-400"
-                                href="https://github.com/EOS-Support/Eden"
-                                target="_blank"
-                                isExternal
-                            >
-                                EdenOS Github Repo
+                                EOS-Respect
                             </Link>
                         </li>
                     </nav>
