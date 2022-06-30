@@ -39,11 +39,11 @@ export const Footer = () => (
                     </nav>
                     <div className="flex items-center space-x-1 mb-6">
                         <Image
-                            src="/images/eos-respect-logo-small.png"
+                            src="/images/eos-respect-logo-small.svg"
                             alt="EOS Respect logo"
                             className="h-4"
                         />
-                        <p className="text-gray-400"> EOS Respect </p>
+                        <p className="text-gray-400"> &nbsp;EOS Respect </p>
                     </div>
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 w-full">
