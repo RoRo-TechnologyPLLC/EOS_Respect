@@ -23,7 +23,7 @@ export const InitInductionPage = () => {
         if (!ualAccount) {
             return (
                 <CallToAction buttonLabel="Sign in" onClick={ualShowModal}>
-                    Welcome to Eden. Sign in using your wallet.
+                    Welcome to EOS Respect. Sign in using your wallet.
                 </CallToAction>
             );
         }
