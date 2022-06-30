@@ -39,12 +39,12 @@ export const INVITEE_INDUCTION_STEPS: Step[] = [
         title: "DONATE",
         text: `Give ${assetToLocaleString(
             minimumDonationAmount
-        )} to the Eden community.`,
+        )} to the EOS Respect community.`,
     },
     {
         key: InductionStepInvitee.Complete,
         title: "YOU'RE IN",
-        text: "NFTs are minted. Welcome to Eden.",
+        text: "NFTs are minted. Welcome to EOS Respect.",
     },
 ];
 
@@ -78,7 +78,7 @@ export const INVITER_INDUCTION_STEPS: Step[] = [
         title: "INVITEE DONATION",
         text: `Invitee donates ${assetToLocaleString(
             minimumDonationAmount
-        )} to the Eden community.`,
+        )} to the EOS Respect community.`,
     },
     {
         key: InductionStepInviter.Complete,
@@ -105,7 +105,7 @@ export const GENESIS_INDUCTION_STEPS: Step[] = [
         title: "DONATE",
         text: `Give ${assetToLocaleString(
             minimumDonationAmount
-        )} to the Eden community.`,
+        )} to the EOS Respect community.`,
     },
     {
         key: InductionStepGenesis.StandBy,
@@ -116,7 +116,7 @@ export const GENESIS_INDUCTION_STEPS: Step[] = [
     {
         key: InductionStepGenesis.Complete,
         title: "YOU'RE IN",
-        text: "The community is activated. Welcome to Eden.",
+        text: "The community is activated. Welcome to EOS Respect.",
     },
 ];
 
