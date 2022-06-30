@@ -14,12 +14,12 @@ export const TreasuryDisbursementsInfo = () => {
         <Container className="space-y-2.5">
             <Heading size={2}>Monthly disbursements</Heading>
             <Text>
-                Eden delegate disbursements occur monthly and are claimed by the
+                EOS Respect delegate disbursements occur monthly and are claimed by the
                 delegate from the contract to their personal{" "}
                 {tokenConfig.symbol} accounts.
             </Text>
             <Text>
-                The overall disbursement is equal to 5% of the Eden treasury at
+                The overall disbursement is equal to 5% of the EOS Respect treasury at
                 the time of disbursement. The amount is then divided equally
                 among the representative levels. At each level, the amount is
                 further divided equally among that level's representatives.
