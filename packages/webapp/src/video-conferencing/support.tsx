@@ -12,18 +12,6 @@ export const ZoomSupport = () => {
                 also have access to a public Community Zoom Room where you can
                 ask for assistance.
             </Text>
-            <Text>
-                If you need an alternative to Telegram, you can also get help by
-                posting on the{" "}
-                <Link
-                    href="https://forums.eoscommunity.org"
-                    target="_blank"
-                    isExternal
-                >
-                    EOSCommunity.org forums
-                </Link>
-                .
-            </Text>
         </Container>
     );
 };
