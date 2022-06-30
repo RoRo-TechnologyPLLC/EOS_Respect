@@ -99,21 +99,21 @@ export const ZoomOauthPage = ({ isZoomLinked, oauthState }: Props) => {
             ) : currentMember ? (
                 <Container className="space-y-4">
                     <Heading size={2}>Your Zoom account is linked</Heading>
-                    <Text>You're ready to participate in Eden elections!</Text>
+                    <Text>You're ready to participate in EOS Respect elections!</Text>
                 </Container>
             ) : ualAccount ? (
                 <Container className="space-y-4">
                     <Heading size={2}>Your Zoom account is linked</Heading>
                     <Text>
                         <Link href={ROUTES.INDUCTION.href}>
-                            Become a member of Eden
+                            Become a member of EOS Respect
                         </Link>{" "}
-                        to participate in Eden elections.
+                        to participate in EOS Respect elections.
                     </Text>
                 </Container>
             ) : (
                 <CallToAction buttonLabel="Sign in" onClick={ualShowModal}>
-                    Welcome to Eden. Sign in using your wallet.
+                    Welcome to EOS Respect. Sign in using your wallet.
                 </CallToAction>
             )}
         </SideNavLayout>
@@ -132,7 +132,7 @@ const ZoomTestContainer = ({ ualAccount }: any) => {
         try {
             const responseData = await generateZoomMeetingLink(
                 setZoomLinkedAccount,
-                `Test Eden Election #${Math.floor(
+                `Test EOS Respect Election #${Math.floor(
                     Math.random() * 100_000_000
                 )}`,
                 40,
