@@ -4,23 +4,23 @@ export const ZoomTermsOfUse = () => {
     return (
         <Container className="space-y-2.5">
             <Text>
-                By using the EdenOS Genesis app integration with Zoom, you
-                understand and accept that the EdenOS software will schedule
+                By using EOS Respect integration with Zoom, you
+                understand and accept that EOS Respect will schedule
                 meetings on your behalf (but specifically and only when you
                 request that a meeting be created) and will invite your election
                 meeting co-participants to join and participate in those
                 meetings.
             </Text>
             <Text>
-                More widely, your membership in the Eden community and your use
-                of the EdenOS software is voluntary and subject to the terms of
+                More widely, your membership in the EOS Respect community and your use
+                of the EOS Respect software is voluntary and subject to the terms of
                 the{" "}
                 <Link
-                    href="https://www.notion.so/edenos/Eden-Peace-Treaty-5b15633ca09c4c6495a5b60f7bc92db2"
+                    href="https://www.notion.so/eoscommunity/EOS-Support-Bylaws-dd63860bf4cf431cb75839e675d21725"
                     target="_blank"
                     isExternal
                 >
-                    Eden Peace Treaty and Bylaws
+                    EOS-Support bylaws
                 </Link>
                 .{" "}
             </Text>
