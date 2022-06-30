@@ -11,7 +11,7 @@ export const InductionPage = () => {
             ) : (
                 <div className="flex-1 flex flex-col justify-center">
                     <CallToAction buttonLabel="Sign in" onClick={ualShowModal}>
-                        Welcome to Eden. Sign in using your wallet.
+                        Welcome to EOS Respect. Sign in using your wallet.
                     </CallToAction>
                     <PendingInvitationsLink />
                 </div>
