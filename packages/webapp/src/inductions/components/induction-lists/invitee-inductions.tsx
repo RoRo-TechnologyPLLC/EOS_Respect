@@ -14,7 +14,7 @@ export const InviteeInductions = ({ inductions }: Props) => (
     <InductionTable.Table
         columns={INVITEE_INDUCTION_COLUMNS}
         data={getTableData(inductions)}
-        tableHeader="My invitations to Eden"
+        tableHeader="My invitations to EOS Respect"
     />
 );
 
