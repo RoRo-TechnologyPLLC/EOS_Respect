@@ -53,7 +53,7 @@ export const InductionInviteFormContainer = ({ ualAccount }: Props) => {
             ) : (
                 <>
                     <Heading size={1} className="mb-8">
-                        Invite to Eden
+                        Invite to EOS Respect
                     </Heading>
                     <InductionInviteForm onSubmit={submitTransaction} />
                 </>
@@ -69,7 +69,7 @@ const InviteConfirmation = ({ inductionId }: { inductionId: string }) => (
         </Heading>
         <div className="space-y-3 mb-8">
             <Text className="leading-normal">
-                Now it's your invitee's turn to create their Eden profile.
+                Now it's your invitee's turn to create their EOS Respect profile.
             </Text>
             <Text className="leading-normal">
                 Your invitee and witnesses will now see this pending invitation
