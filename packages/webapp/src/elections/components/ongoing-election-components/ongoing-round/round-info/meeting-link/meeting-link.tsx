@@ -135,7 +135,7 @@ export const MeetingLink = ({
     const requestMeetingLink = async () => {
         await checkSubmissionIsAllowed();
 
-        const topic = `Eden Election - Round #${roundIndex + 1}`;
+        const topic = `EOS Respect Election - Round #${roundIndex + 1}`;
         const durationInMinutes = electionEnvVars.meetingDurationMs / 1000 / 60;
         const startTime = meetingStartTime.toISOString().split(".")[0] + "Z";
 
