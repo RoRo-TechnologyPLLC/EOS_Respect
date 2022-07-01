@@ -129,7 +129,7 @@ export const InductionEndorsementForm = ({
                 <div className="flex flex-col space-y-2 items-center md:flex-row md:space-y-0 lg:flex-col lg:space-y-2 xl:flex-row xl:space-y-0 p-3 border rounded space-x-2">
                     <Form.Checkbox
                         id="reviewed"
-                        label="I hereby endorse this individual for membership in the Eden community."
+                        label="I hereby endorse this individual for membership in the EOS Respect community."
                         disabled={isLoading}
                         required
                     />
