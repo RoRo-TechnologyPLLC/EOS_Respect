@@ -30,8 +30,8 @@ export const InductionProfileFormContainer = ({
         <>
             <Heading size={1} className="mb-2">
                 {isRevisitingProfile
-                    ? "Review your Eden profile"
-                    : "Create your Eden profile"}
+                    ? "Review your EOS Respect profile"
+                    : "Create your EOS Respect profile"}
             </Heading>
             <InductionExpiresIn induction={induction} />
             <InductionNames inductionId={induction.id} className="pb-8" />
