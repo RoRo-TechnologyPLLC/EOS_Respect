@@ -98,7 +98,7 @@ export const InductionProfilePreview = ({
                     <div className="col-span-6">
                         <Text>
                             Review your profile above as per the check boxes
-                            below. This is your first Eden community NFT and
+                            below. This is your first EOS Respect community NFT and
                             will be used by your fellow members to get to know
                             you so please do your best to get it right.
                         </Text>
