@@ -26,7 +26,7 @@ export const WaitingForVideo = ({ induction }: { induction: Induction }) => {
                     If time runs out, you can always request another invitation.
                 </Text>
                 <Text className="leading-normal">
-                    In the meantime, review your Eden profile below.
+                    In the meantime, review your EOS Respect profile below.
                 </Text>
             </div>
         </>
