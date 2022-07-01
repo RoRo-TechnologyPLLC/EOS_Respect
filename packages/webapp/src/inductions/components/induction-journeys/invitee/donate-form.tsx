@@ -86,12 +86,12 @@ export const InductionDonateForm = ({
             <Text>
                 If everything looks good, submit your donation to proceed.
                 {isCommunityActive &&
-                    " Once completed, your membership will be activated and your Eden NFTs will be minted and distributed."}
+                    " Once completed, your membership will be activated and your EOS Respect NFTs will be minted and distributed."}
             </Text>
             <div className="p-3 border rounded-md">
                 <Form.Checkbox
                     id="reviewed"
-                    label="I have carefully reviewed my profile image, links and information below and confirm their accuracy. I understand that by submitting my donation, my Eden NFTs will be minted and changes to my profile or this NFT series will not be possible."
+                    label="I have carefully reviewed my profile image, links and information below and confirm their accuracy. I understand that by submitting my donation, my EOS Respect NFTs will be minted and changes to my profile or this NFT series will not be possible."
                     value={Number(isProfileReviewed)}
                     onChange={() => setReviewedProfile(!isProfileReviewed)}
                 />
