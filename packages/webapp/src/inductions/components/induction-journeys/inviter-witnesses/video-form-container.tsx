@@ -85,7 +85,7 @@ export const InductionVideoFormContainer = ({
             <div className="space-y-3 mb-8">
                 <Text className="leading-normal">
                     It's time for the induction ceremony! The inviter, witnesses
-                    and prospective Eden member will record a short, scripted
+                    and prospective EOS Respect member will record a short, scripted
                     video conference call inducting the new member.
                 </Text>
                 <InductionNames inductionId={induction.id} />
