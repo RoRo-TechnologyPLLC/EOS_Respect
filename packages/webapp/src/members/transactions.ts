@@ -40,7 +40,7 @@ export const withdrawAndTransfer = (
                         to: authorizerAccount,
                         amount: balance,
                         memo:
-                            "Claiming available delegate funds from EdenOS profile page",
+                            "Claiming available delegate funds from EOS Respect profile page",
                     },
                 };
             }) ?? [];
