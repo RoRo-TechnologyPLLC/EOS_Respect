@@ -72,7 +72,7 @@ export const InductionProfileForm = ({
                     <p className="text-sm font-medium text-gray-700">
                         Profile image
                     </p>
-                    <HelpLink href="https://www.notion.so/edenos/Upload-Profile-Photo-c15a7a050d3c411faca21a3cd3d2f0a3" />
+                    <HelpLink href="https://www.notion.so/eoscommunity/Best-Practice-Upload-Profile-Photo-5be8b3a9dd3a45e0bced1abaccfc0e35" />
                 </div>
                 <Form.FileInput
                     id="imgFile"
