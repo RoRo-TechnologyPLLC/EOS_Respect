@@ -56,7 +56,7 @@ export const RoundInfoPanel = ({
                 <Heading size={3}>Meeting group members</Heading>
                 <Text>
                     {stage === RoundStage.PreMeeting
-                        ? "Make sure you have your meeting link ready and stand by. You'll be on a video call with the following Eden members momentarily."
+                        ? "Make sure you have your meeting link ready and stand by. You'll be on a video call with the following EOS Respect members momentarily."
                         : stage === RoundStage.Meeting
                         ? "Meet with your group. Align on a leader >2/3 majority. Select your leader and submit your vote below."
                         : stage === RoundStage.Complete
