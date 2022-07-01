@@ -133,9 +133,9 @@ export const ParticipationCard = ({ election }: Props) => {
             </Button>
         );
     } else {
-        participationCallLabel = "Join Eden to participate!";
+        participationCallLabel = "Join EOS Respect to participate!";
         statusButton = (
-            <Button href="/induction">Join Eden to participate</Button>
+            <Button href="/induction">Join EOS Respect to participate</Button>
         );
     }
 
