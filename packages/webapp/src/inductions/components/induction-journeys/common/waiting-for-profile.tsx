@@ -14,7 +14,7 @@ export const WaitingForProfile = ({ induction }: { induction: Induction }) => {
                 <Text className="leading-normal">
                     We're waiting on{" "}
                     <span className="font-semibold">{induction.invitee}</span>{" "}
-                    to set up their Eden profile.
+                    to set up their EOS Respect profile.
                 </Text>
                 <Text className="leading-normal">
                     Encourage the invitee to sign into the Membership dashboard
