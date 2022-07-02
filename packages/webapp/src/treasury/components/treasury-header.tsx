@@ -13,7 +13,7 @@ export const TreasuryHeader = () => {
     return (
         <Container className="flex justify-between items-center">
             <Heading size={1}>
-                <span className="hidden xs:inline">Eden </span>Treasury
+                <span className="hidden xs:inline">EOS Respect </span>Treasury
             </Heading>
             {isLoading ? (
                 <div>
