@@ -79,7 +79,7 @@ const Collection = ({
         return (
             <MessageContainer
                 title="No NFTs found"
-                message="This user is not collecting any Eden member NFTs."
+                message="This user is not collecting any EOS Respect member NFTs."
             />
         );
     }
@@ -89,7 +89,7 @@ const Collection = ({
             <Container>
                 <Text>
                     <span className="font-medium">{name}</span> collects NFTs
-                    for the following Eden members:
+                    for the following EOS Respect members:
                 </Text>
             </Container>
             <MembersGrid members={nfts}>
@@ -139,7 +139,7 @@ const Collectors = ({
         <>
             <Container>
                 <Text>
-                    The following Eden members or accounts collect one or more
+                    The following EOS Respect members or accounts collect one or more
                     of <span className="font-medium">{name}'s</span> NFTs.
                 </Text>
             </Container>
