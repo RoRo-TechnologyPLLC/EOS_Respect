@@ -39,7 +39,7 @@ export const WithdrawModalStepForm = ({
         <div className="space-y-4">
             <Heading>Withdraw funds</Heading>
             <Text>
-                Withdraw my funds from the Eden contract to a public{" "}
+                Withdraw my funds from the EOS Respect contract to a public{" "}
                 {tokenConfig.symbol} account.
             </Text>
             <Text>
