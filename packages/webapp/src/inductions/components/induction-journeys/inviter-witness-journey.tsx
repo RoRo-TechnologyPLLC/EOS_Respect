@@ -264,9 +264,9 @@ const PendingDonationStep = ({
                 <>
                     <Text>
                         This induction is fully endorsed! As soon as the
-                        prospective member completes their donation to the Eden
+                        prospective member completes their donation to the EOS Respect
                         community, their membership will be activated and their
-                        Eden NFTs will be minted and distributed.
+                        EOS Respect NFTs will be minted and distributed.
                     </Text>
                     <RecommendReview
                         setIsRevisitingVideo={setIsRevisitingVideo}
@@ -275,9 +275,9 @@ const PendingDonationStep = ({
             ) : (
                 <Text>
                     As soon as this prospective member completes their donation
-                    to the Eden community, their membership is ready for
+                    to the EOS Respect community, their membership is ready for
                     activation. Once all Genesis members are fully inducted,
-                    memberships will be activated and Eden NFTs will be
+                    memberships will be activated and EOS Respect NFTs will be
                     distributed.
                 </Text>
             )}
