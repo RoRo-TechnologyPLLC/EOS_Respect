@@ -30,7 +30,7 @@ export const MemberGateContainer = ({
     } else if (!currentMember) {
         return (
             <Container>
-                <Button href="/induction">{joinLabel || "Join Eden"}</Button>
+                <Button href="/induction">{joinLabel || "Join EOS Respect"}</Button>
             </Container>
         );
     } else {
