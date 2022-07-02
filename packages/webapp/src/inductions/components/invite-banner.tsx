@@ -9,12 +9,12 @@ export const InviteBanner = ({ canInvite }: InviteBannerProps) => {
     if (!canInvite) return null;
     return (
         <CallToAction
-            buttonLabel="Invite to Eden"
+            buttonLabel="Invite to EOS Respect"
             dataTestId="invite-button"
             href={`${ROUTES.INDUCTION.href}/init`}
         >
             Spread the love! Invite your trusted contacts in the EOS community
-            to Eden.
+            to EOS Respect.
         </CallToAction>
     );
 };
