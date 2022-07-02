@@ -25,7 +25,7 @@ export const SupportSegment = () => {
             {!isActiveMember && (
                 <Container>
                     <Text>
-                        Sign in with your Eden member account to access the
+                        Sign in with your EOS Respect member account to access the
                         community room.
                     </Text>
                 </Container>
