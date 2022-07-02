@@ -87,7 +87,7 @@ export const ZoomOauthPage = ({ isZoomLinked, oauthState }: Props) => {
     return (
         <SideNavLayout title="Video Conferencing" className="divide-y border-b">
             <Container>
-                <Heading size={1}>Video conferencing for EdenOS</Heading>
+                <Heading size={1}>Video conferencing for EOS Respect</Heading>
             </Container>
             {/* Easy Zoom Tester Container: <ZoomTestContainer ualAccount={ualAccount} /> */}
             {redirectMessage ? (
@@ -181,7 +181,7 @@ const ZoomTestContainer = ({ ualAccount }: any) => {
             {zoomLinkedAccount ? (
                 <>
                     <Text>
-                        Thanks for connecting Eden to your Zoom account.
+                        Thanks for connecting EOS Respect to your Zoom account.
                     </Text>
                     <Text>Next step is to create a meeting.</Text>
                     <Button onClick={doGenerateZoomMeetingLink}>
