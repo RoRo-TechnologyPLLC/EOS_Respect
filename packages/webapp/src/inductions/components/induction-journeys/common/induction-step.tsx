@@ -42,10 +42,10 @@ const CompleteStepPath = ({ last }: StepPath) => (
     <>
         {!last && (
             <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
-                <div className="h-full w-1 bg-blue-500 pointer-events-none"></div>
+                <div className="h-full w-1 bg-purple-800 pointer-events-none"></div>
             </div>
         )}
-        <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 inline-flex items-center justify-center text-white relative z-10">
+        <div className="flex-shrink-0 w-10 h-10 rounded-full bg-purple-800 inline-flex items-center justify-center text-white relative z-10">
             <svg
                 fill="none"
                 stroke="currentColor"
@@ -68,7 +68,7 @@ const CurrentStepPath = ({ last }: StepPath) => (
                 <div className="h-full w-1 bg-gray-300 pointer-events-none"></div>
             </div>
         )}
-        <div className="flex-shrink-0 w-10 h-10 rounded-full border-4 border-blue-500 bg-white inline-flex items-center justify-center text-white relative z-10">
+        <div className="flex-shrink-0 w-10 h-10 rounded-full border-4 border-purple-800 bg-white inline-flex items-center justify-center text-white relative z-10">
             <svg
                 strokeLinecap="round"
                 strokeLinejoin="round"
