@@ -12,7 +12,7 @@ export const MoreInformationLink = () => {
 
     return (
         <div className="flex items-center space-x-1">
-            <AiOutlineSchedule className="text-blue-500" />
+            <AiOutlineSchedule className="text-purple-800" />
             <Link href={ROUTES.ELECTION.href}>More details</Link>
         </div>
     );
