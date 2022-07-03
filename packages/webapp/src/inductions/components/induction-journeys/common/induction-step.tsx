@@ -73,7 +73,7 @@ const CurrentStepPath = ({ last }: StepPath) => (
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4"
-                className="w-9 h-9 fill-current stroke-current text-blue-500"
+                className="w-9 h-9 fill-current stroke-current text-purple-800"
                 viewBox="0 0 36 120"
             >
                 <circle cx="18" cy="60" r="18"></circle>
