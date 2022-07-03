@@ -56,7 +56,7 @@ const CommunityStatsContents = () => {
             <div className="space-y-2.5">
                 {treasuryBalance && (
                     <div className="flex items-center space-x-2 group">
-                        <div className="flex justify-center w-5 group-hover:text-blue-500 transition">
+                        <div className="flex justify-center w-5 group-hover:text-purple-800 transition">
                             <TreasuryNav />
                         </div>
                         <Link href={ROUTES.TREASURY.href}>
@@ -67,7 +67,7 @@ const CommunityStatsContents = () => {
                 {memberStats && (
                     <>
                         <div className="flex items-center space-x-2 group">
-                            <div className="flex justify-center w-5 group-hover:text-blue-500 transition">
+                            <div className="flex justify-center w-5 group-hover:text-purple-800 transition">
                                 <MembershipNav />
                             </div>
                             <Link href={ROUTES.MEMBERS.href}>
@@ -77,7 +77,7 @@ const CommunityStatsContents = () => {
                             </Link>
                         </div>
                         <div className="flex items-center space-x-2 group">
-                            <div className="flex justify-center w-5 group-hover:text-blue-500 transition">
+                            <div className="flex justify-center w-5 group-hover:text-purple-800 transition">
                                 <PendingInvites />
                             </div>
                             <Link
