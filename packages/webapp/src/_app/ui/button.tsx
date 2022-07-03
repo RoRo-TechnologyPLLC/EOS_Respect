@@ -41,13 +41,13 @@ export type ButtonType =
     | "link";
 const TYPES: { [key in ButtonType]: string } = {
     primary: "bg-purple-800 border-purple-800 text-white hover:bg-purple-900",
-    secondary: "border-purple-800 text-blue-500 hover:text-blue-400",
+    secondary: "border-purple-800 text-purple-800 hover:text-blue-400",
     disabled: "border-gray-300 bg-gray-300 text-white",
     neutral: "bg-gray-50 text-gray-800 hover:bg-gray-200",
     caution: "bg-yellow-500 text-white hover:bg-yellow-600 border-white",
     danger: "bg-red-500 text-white hover:bg-red-600",
     dangerOutline: "text-gray-500 hover:text-red-500 border-none",
-    link: "border-transparent text-blue-500 hover:text-blue-600",
+    link: "border-transparent text-purple-800 hover:text-blue-600",
     inductionStatusProfile:
         "bg-purple-800 border-purple-800 text-white hover:bg-purple-900",
     inductionStatusCeremony:
