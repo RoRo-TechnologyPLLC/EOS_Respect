@@ -47,7 +47,7 @@ const TYPES: { [key in ButtonType]: string } = {
     caution: "bg-yellow-500 text-white hover:bg-yellow-600 border-white",
     danger: "bg-red-500 text-white hover:bg-red-600",
     dangerOutline: "text-gray-500 hover:text-red-500 border-none",
-    link: "border-transparent text-purple-800 hover:text-blue-600",
+    link: "border-transparent text-purple-800 hover:text-purple-900",
     inductionStatusProfile:
         "bg-purple-800 border-purple-800 text-white hover:bg-purple-900",
     inductionStatusCeremony:
