@@ -231,7 +231,7 @@ const ElectionVideoPlayButton = ({
     return (
         <FaPlayCircle
             size={26}
-            className="mr-2 text-purple-800 hover:text-blue-600 active:text-blue-700"
+            className="mr-2 text-purple-800 hover:text-purple-900 active:text-purple-800"
             onClick={(e) => {
                 e.stopPropagation();
                 openInNewTab(ipfsUrl(electionVideoCid));
