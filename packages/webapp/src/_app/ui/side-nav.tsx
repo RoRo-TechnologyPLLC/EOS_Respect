@@ -78,7 +78,7 @@ const HeaderItemLink = ({
     const { pathname } = useRouter();
     const active = exactPath ? pathname === href : pathname.startsWith(href);
     const navItemClass =
-        NAV_ITEM_BASE_CLASS + (active ? "bg-gray-100 text-blue-600" : "");
+        NAV_ITEM_BASE_CLASS + (active ? "bg-gray-100 text-purple-800" : "");
     return (
         <div className="xl:w-full">
             <Link href={href}>
