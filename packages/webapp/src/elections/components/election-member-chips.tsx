@@ -65,7 +65,7 @@ export const VotingMemberChip = ({
                             </p>
                         )}
                         {votesReceived > 0 && (
-                            <p className="text-xs text-blue-500 font-medium">
+                            <p className="text-xs text-purple-800 font-medium">
                                 Votes Received: {votesReceived}
                             </p>
                         )}
@@ -111,7 +111,7 @@ const VotingSelectionIcons = ({
     hasCurrentMembersVote ? (
         <FaCheckSquare size={31} className="ml-4 mr-2 text-gray-400" />
     ) : isSelected ? (
-        <FaCheckSquare size={31} className="ml-4 mr-2 text-blue-500" />
+        <FaCheckSquare size={31} className="ml-4 mr-2 text-purple-800" />
     ) : (
         <FaRegSquare
             size={31}
@@ -231,7 +231,7 @@ const ElectionVideoPlayButton = ({
     return (
         <FaPlayCircle
             size={26}
-            className="mr-2 text-blue-500 hover:text-blue-600 active:text-blue-700"
+            className="mr-2 text-purple-800 hover:text-blue-600 active:text-blue-700"
             onClick={(e) => {
                 e.stopPropagation();
                 openInNewTab(ipfsUrl(electionVideoCid));
