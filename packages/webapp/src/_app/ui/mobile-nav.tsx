@@ -89,7 +89,7 @@ const HeaderItemLink = ({
     const navItemClass =
         NAV_ITEM_BASE_CLASS +
         (active
-            ? " bg-gray-100 hover:bg-gray-100 text-blue-600"
+            ? " bg-gray-100 hover:bg-gray-100 text-purple-800"
             : " text-gray-800");
     return (
         <div className={navItemClass}>
