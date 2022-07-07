@@ -128,16 +128,16 @@ export const InductionProfileForm = ({
                 Social handles and links
             </Heading>
             <Form.LabeledSet
-                label="forums.eoscommunity.org username"
-                htmlFor="eosCommunity"
+                label="Discord handle"
+                htmlFor="discord"
                 className="col-span-6 md:col-span-3 lg:col-span-6 xl:col-span-3"
             >
                 <Form.Input
-                    id="eosCommunity"
+                    id="discord"
                     type="text"
-                    value={socialFields.eosCommunity}
+                    value={socialFields.discord}
                     onChange={onChangeSocialFields}
-                    placeholder="YourUsername"
+                    placeholder="YourHandle"
                 />
             </Form.LabeledSet>
             <Form.LabeledSet
@@ -247,7 +247,7 @@ const ProfileImage = ({ image }: { image?: File | string }) => {
 const convertNewMemberProfileSocial = (social: string): MemberSocialHandles => {
     const socialHandles = JSON.parse(social || "{}");
     return {
-        eosCommunity: socialHandles.eosCommunity || "",
+        discord: socialHandles.discord || "",
         twitter: socialHandles.twitter || "",
         linkedin: socialHandles.linkedin || "",
         telegram: socialHandles.telegram || "",
