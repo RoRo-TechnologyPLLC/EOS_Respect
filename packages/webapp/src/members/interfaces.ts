@@ -24,7 +24,7 @@ interface MemberProfile {
 }
 
 export interface MemberSocialHandles {
-    eosCommunity?: string;
+    discord?: string;
     twitter?: string;
     linkedin?: string;
     telegram?: string;
