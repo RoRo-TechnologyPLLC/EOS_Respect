@@ -1,107 +1,79 @@
-import React, { MouseEventHandler } from "react";
-import { useRouter } from "next/router";
-import Link from "next/link";
+import { HiOutlineLink } from "react-icons/hi";
+import { FaFacebook, FaLinkedin, FaTelegram, FaTwitter, FaDiscord } from "react-icons/fa";
+import { IoChatbubblesOutline } from "react-icons/io5";
 
-import { Route } from "_app/routes";
-import { useNavItems } from "_app";
+import { explorerAccountUrl, SocialButton } from "_app";
+import { EosCommunityIcon } from "_app/ui/icons";
 
-import NavProfile from "./nav-profile";
-import { Image } from "./image";
+import { MemberSocialHandles } from "../interfaces";
+import { getValidSocialLink } from "../helpers/social-links";
 
-export const MobileNav = () => (
-    <>
-        <TopNav />
-        <BottomNav />
-    </>
-);
+interface Props {
+    accountName: string;
+    socialHandles: MemberSocialHandles;
+}
 
-const HeaderLogo = () => (
-    <div className="flex-1 flex">
-        <Link href="/">
-            <a>
-                <Image
-                    src="/images/eden-logo.svg"
-                    alt="Eden logo"
-                    className="h-8 mt-2 mb-2"
-                />
-            </a>
-        </Link>
-    </div>
-);
-
-const TopNav = () => (
-    <header className="xs:hidden fixed z-50 top-0 left-0 right-0 h-14 flex items-center border-b px-4 bg-white">
-        <HeaderLogo />
-        <NavProfile location="mobile-nav" />
-    </header>
-);
-
-const BottomNav = () => {
-    const navMenuItems = useNavItems().slice(0, 5);
+export const MemberSocialLinks = ({ accountName, socialHandles }: Props) => {
+    const linkedinHandle = getValidSocialLink(socialHandles.linkedin);
+    const facebookHandle = getValidSocialLink(socialHandles.facebook);
+    const twitterHandle = getValidSocialLink(socialHandles.twitter);
+    const telegramHandle = getValidSocialLink(socialHandles.telegram);
     return (
-        <div className="flex items-center z-50 h-16 xs:hidden fixed bottom-0 left-0 right-0 bg-white border-t">
-            <div className="w-full flex justify-around">
-                {navMenuItems.map((item, index) => {
-                    const { Icon, label } = item;
-                    return (
-                        <HeaderItemLink key={`nav-route-${index}`} route={item}>
-                            <div className="flex items-center h-5">
-                                <Icon />
-                            </div>
-                            <p
-                                style={{ fontSize: 10 }}
-                                className="font-light label"
-                            >
-                                {label}
-                            </p>
-                            <style jsx>{`
-                                @media screen and (max-width: 300px) {
-                                    .label {
-                                        display: none;
-                                    }
-                                }
-                            `}</style>
-                        </HeaderItemLink>
-                    );
-                })}
-            </div>
+        <div
+            className="grid gap-y-2 sm:justify-between text-sm"
+            style={{ gridTemplateColumns: "repeat(auto-fill, 12.5rem)" }}
+        >
+            <SocialButton
+                handle={accountName}
+                icon={EosCommunityIcon}
+                href={explorerAccountUrl(accountName)}
+            />
+            {socialHandles.blog && (
+                <SocialButton
+                    handle="Website"
+                    icon={HiOutlineLink}
+                    href={urlify(socialHandles.blog)}
+                />
+            )}
+            {twitterHandle && (
+                <SocialButton
+                    handle={`@${twitterHandle}`}
+                    icon={FaTwitter}
+                    href={`https://twitter.com/${twitterHandle}`}
+                />
+            )}
+            {telegramHandle && (
+                <SocialButton
+                    handle={`@${telegramHandle}`}
+                    icon={FaTelegram}
+                    href={`https://t.me/${telegramHandle}`}
+                />
+            )}
+            {linkedinHandle && (
+                <SocialButton
+                    handle={linkedinHandle}
+                    icon={FaLinkedin}
+                    href={`https://www.linkedin.com/in/${linkedinHandle}`}
+                />
+            )}
+            {facebookHandle && (
+                <SocialButton
+                    handle={facebookHandle}
+                    icon={FaFacebook}
+                    href={`https://facebook.com/${facebookHandle}`}
+                />
+            )}
         </div>
     );
 };
 
-interface HeaderItemLinkProps {
-    children: React.ReactNode;
-    handleNavigationClick?: MouseEventHandler<HTMLAnchorElement>;
-    route: Route;
-}
+const urlify = (address: string) => {
+    let domainBeginIndex = 0;
 
-const NAV_ITEM_BASE_CLASS =
-    "flex-1 h-12 rounded-2xl hover:bg-gray-50 mx-1 pt-1";
+    const protocolIndex = address.indexOf("//");
+    if (protocolIndex > -1 && protocolIndex <= 6) {
+        domainBeginIndex = protocolIndex + 2;
+    }
 
-const HeaderItemLink = ({
-    children,
-    handleNavigationClick,
-    route,
-}: HeaderItemLinkProps) => {
-    const { exactPath, href, label } = route;
-    const { pathname } = useRouter();
-    const active = exactPath ? pathname === href : pathname.startsWith(href);
-    const navItemClass =
-        NAV_ITEM_BASE_CLASS +
-        (active
-            ? " bg-gray-100 hover:bg-gray-100 text-purple-800"
-            : " text-gray-800");
-    return (
-        <div className={navItemClass}>
-            <Link href={href}>
-                <a
-                    onClick={handleNavigationClick}
-                    title={label}
-                    className="flex flex-col justify-center items-center space-y-1"
-                >
-                    {children}
-                </a>
-            </Link>
-        </div>
-    );
+    return `//${address.substring(domainBeginIndex)}`;
 };
