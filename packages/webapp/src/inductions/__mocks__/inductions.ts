@@ -53,7 +53,7 @@ export const INDUCTION_PENDING_VIDEO_MOCK: Induction = {
         name: "Spark Plug",
         img: "Qmb7WmZiSDXss5HfuKfoSf6jxTDrHzr8AoAUDeDMLNDuws",
         bio: "Hey, Sparky here! I'm just sparking freedom! :)",
-        social: `{"eosCommunity":"sparkplug0025", "telegram":"sparkplug0025"}`,
+        social: `{"telegram":"sparkplug0025"}`,
     },
 };
 
@@ -68,7 +68,7 @@ export const INDUCTION_PENDING_ENDORSEMENTS_MOCK: Induction = {
         name: "Spark Plug",
         img: "Qmb7WmZiSDXss5HfuKfoSf6jxTDrHzr8AoAUDeDMLNDuws",
         bio: "Hey, Sparky here! I'm just sparking freedom! :)",
-        social: `{"eosCommunity":"sparkplug0025", "telegram":"sparkplug0025"}`,
+        social: `{"telegram":"sparkplug0025"}`,
     },
 };
 
