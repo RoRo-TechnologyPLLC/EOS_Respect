@@ -1,5 +1,5 @@
 import { HiOutlineLink } from "react-icons/hi";
-import { FaFacebook, FaLinkedin, FaTelegram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaTelegram, FaTwitter, FaDiscord } from "react-icons/fa";
 import { IoChatbubblesOutline } from "react-icons/io5";
 
 import { explorerAccountUrl, SocialButton } from "_app";
@@ -28,13 +28,6 @@ export const MemberSocialLinks = ({ accountName, socialHandles }: Props) => {
                 icon={EosCommunityIcon}
                 href={explorerAccountUrl(accountName)}
             />
-            {socialHandles.eosCommunity && (
-                <SocialButton
-                    handle={socialHandles.eosCommunity}
-                    icon={IoChatbubblesOutline}
-                    href={`https://forums.eoscommunity.org/u/${socialHandles.eosCommunity}`}
-                />
-            )}
             {socialHandles.blog && (
                 <SocialButton
                     handle="Website"
