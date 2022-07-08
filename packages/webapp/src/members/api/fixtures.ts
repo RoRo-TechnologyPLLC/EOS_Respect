@@ -159,7 +159,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "alice.edev",
+            discord: "alice.edev",
             twitter: "alice.edev",
             telegram: "alice.edev",
         },
@@ -175,7 +175,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "philip",
+            discord: "philip",
             twitter: "philip",
             linkedin: "philip",
             telegram: "philip",
@@ -194,7 +194,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "egeon",
+            discord: "egeon",
             twitter: "egeon",
             linkedin: "egeon",
             telegram: "egeon",
@@ -211,7 +211,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember11",
+            discord: "edenmember11",
             twitter: "edenmember11",
             telegram: "edenmember11",
         },
@@ -227,7 +227,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "\nQuisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember12",
+            discord: "edenmember12",
             twitter: "edenmember12",
             telegram: "edenmember12",
         },
@@ -243,7 +243,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember13",
+            discord: "edenmember13",
             twitter: "edenmember13",
             telegram: "edenmember13",
         },
@@ -259,7 +259,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember14",
+            discord: "edenmember14",
             twitter: "edenmember14",
             telegram: "edenmember14",
         },
@@ -275,7 +275,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember15",
+            discord: "edenmember15",
             twitter: "edenmember15",
             telegram: "edenmember15",
         },
@@ -291,7 +291,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember21",
+            discord: "edenmember21",
             twitter: "edenmember21",
             telegram: "edenmember21",
             facebook: "edenmember21",
@@ -308,7 +308,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember22",
+            discord: "edenmember22",
             linkedin: "edenmember22",
             telegram: "edenmember22",
             blog: "edenmember22.com",
@@ -325,7 +325,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember23",
+            discord: "edenmember23",
             twitter: "edenmember23",
             telegram: "edenmember23",
         },
@@ -341,7 +341,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember24",
+            discord: "edenmember24",
             twitter: "edenmember24",
             telegram: "edenmember24",
         },
@@ -357,7 +357,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember25",
+            discord: "edenmember25",
             twitter: "edenmember25",
             telegram: "edenmember25",
         },
@@ -373,7 +373,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember31",
+            discord: "edenmember31",
             twitter: "edenmember31",
             telegram: "edenmember31",
         },
@@ -389,7 +389,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember32",
+            discord: "edenmember32",
             twitter: "edenmember32",
             telegram: "edenmember32",
         },
@@ -405,7 +405,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember33",
+            discord: "edenmember33",
             twitter: "edenmember33",
             telegram: "edenmember33",
         },
@@ -421,7 +421,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember34",
+            discord: "edenmember34",
             twitter: "edenmember34",
             telegram: "edenmember34",
         },
@@ -437,7 +437,7 @@ export const fixtureMemberData: MemberNFT[] = [
         bio:
             "Quisque sapien neque, varius ac lacinia in, ullamcorper eu lorem. Quisque sed felis tincidunt, cursus nulla id, egestas nibh. Nullam eu est ultricies, fringilla ipsum eu, scelerisque turpis. Donec tempus auctor semper. Aenean sagittis diam lacinia bibendum sodales. Sed condimentum orci sed molestie consequat. Phasellus id maximus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse bibendum, urna at eleifend facilisis, urna augue cursus felis, sit amet facilisis elit ex sit amet turpis. Nam finibus posuere lorem ac molestie. Nam ornare ante sit amet sem porta, a sagittis metus ornare. Mauris ultricies rutrum massa a lobortis. Suspendisse semper velit quis nibh sollicitudin, vitae pharetra est consectetur. Etiam iaculis lacus eros, id vestibulum tellus vehicula vitae. Aenean ut mauris nec enim elementum mollis ut sed augue. Cras nec tortor et leo luctus hendrerit.",
         socialHandles: {
-            eosCommunity: "edenmember35",
+            discord: "edenmember35",
             twitter: "edenmember35",
             linkedin: "edenmember35",
             telegram: "edenmember35",
