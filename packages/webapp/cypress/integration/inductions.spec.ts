@@ -53,7 +53,7 @@ describe("Inductions", () => {
             cy.get("#imgFile").attachFile("cypress-avatar.jpg");
             cy.get("#attributions").type("Cypress Framework");
             cy.get("#bio").type("Thanks to Cypress I'm here!");
-            cy.get("#eosCommunity").type(participants.invitee + ".ec");
+            cy.get("#discord").type(participants.invitee + ".ec");
             cy.get("#telegram").type(participants.invitee + ".tg");
             cy.get("#linkedin").type(participants.invitee + ".li");
             cy.get("#twitter").type(participants.invitee + ".tw");
