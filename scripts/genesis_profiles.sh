@@ -27,7 +27,7 @@ for PARMS in $(cat ./genesis_accounts_long_list); do
       \"name\": \"$FNAME $LNAME\",
       \"img\": \"$IMAGE\",
       \"bio\": \"$BIO\",
-      \"social\": \"{\\\"eosCommunity\\\":\\\"$SOCIAL_EOSCOMMUNITY\\\",\\\"twitter\\\":\\\"$SOCIAL_TWITTER\\\",\\\"linkedin\\\":\\\"$SOCIAL_LINKEDIN\\\",\\\"telegram\\\":\\\"$SOCIAL_TELEGRAM\\\",\\\"facebook\\\":\\\"$SOCIAL_FACEBOOK\\\",\\\"blog\\\":\\\"$SOCIAL_BLOG\\\"}\",
+      \"social\": \"{\\\"twitter\\\":\\\"$SOCIAL_TWITTER\\\",\\\"linkedin\\\":\\\"$SOCIAL_LINKEDIN\\\",\\\"telegram\\\":\\\"$SOCIAL_TELEGRAM\\\",\\\"facebook\\\":\\\"$SOCIAL_FACEBOOK\\\",\\\"blog\\\":\\\"$SOCIAL_BLOG\\\"}\",
       \"attributions\": \"$ATTRIBUTIONS\"
     }
   }"
