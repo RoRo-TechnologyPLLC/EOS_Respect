@@ -13,7 +13,7 @@
     border: 0;
     border-radius: 5px;
     box-sizing: border-box;
-    color: rgba(59, 130, 246);
+    color: #631ee0;
     cursor: pointer;
     display: inline;
     font-family: inherit;
@@ -40,7 +40,7 @@
 }
 
 .chq-atc--button path {
-    fill: rgba(59, 130, 246);
+    fill: #631ee0;
 }
 
 .chq-atc--dropdown {
@@ -57,7 +57,7 @@
 }
 
 .chq-atc--dropdown a {
-    color: rgba(59, 130, 246);
+    color: #631ee0;
     display: block;
     padding: 8px 15px;
     text-decoration: none;
