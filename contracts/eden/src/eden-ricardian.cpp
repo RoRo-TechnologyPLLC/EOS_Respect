@@ -142,5 +142,26 @@ VII. Membership is voluntary. Members may leave at any time by giving notice.
 VIII. The Peace Treaty may be amended by a ⅔+1 vote of all members.)";
 
 const char* eden::bylaws_clause =
-    R"(I. The initial Board shall consist of the people on the Genesis Call and shall have the power to propose and ratify bylaws until such time as the first election occurs.
-II. Genesis members are to only participate in up to 15 induction meetings until membership reaches 100 members.)";
+    R"(I. EOS Support Squad is an ambassadorship program for EOS support.
+II. EOS Support Squad members agree to follow the basic rules and regulations of the non-profit organization to prevent the breaching of contractual obligations that EOS Support has entered into with the EOS Network and other businesses.
+III. All EOS support Squads will be greater than 18 years of age.
+IV. EOS support Squads shall familiarize themselves with the EOS Support learning center articles and FAQs.
+V. EOS Support Squads have to be invited into the EOS Respect community by EOS support agents.
+VI. EOS Support Squad can resign or opt-out at any time by notice to the EOS Respect community and EOS support organization.
+VII. EOS Support Squad members shall be professional and abide by non-violent communication.
+VIII. EOS Support Squad members will participate in monthly meetings to be elected to receive funds. Each elected member will govern the funds to improve EOS Support and EOS.
+IX. No EOS Support Squad member shall solicit or raise funds in the name of the EOS Support organization.
+X. EOS Support Squad members with privileged information about the EOS network and how it does business, including its coding practices and designs, shall keep this information confidential.
+XI. EOS Support Squad member who participates in any suspicious activity to scam or trick users shall be removed from the EOS Respect community.
+XII. An EOS Support Squad who misses two consecutive monthly elections without notice would be removed from the EOS Respect community.
+XIII. Any EOS Support Squad inactive for more than two months would automatically be removed from the EOS Respect community.
+XIV. EOS Support Squad member who participates in issuing threats, bullying, and discriminating against others in the EOS Respect community would be investigated and, if allegations are true, would be removed through dispute resolution.
+XV. EOS Support Squad members who have EOSsupport.io next to their names should be mindful when making comments in the public domain. (please remove EOSsupport.io from your name when expressing your personal views in the EOS community.)
+XVI. EOS Support Squad members agree that all disputes will be resolved using> ⅔ consensus of the vote cast.
+XVII. EOS Support Squad members who break bylaws repeatedly will have a dispute filed against them.
+XVIII. All EOS Support Squad members agree to discuss with the leadership of the EOS Support organization if there are problems, disagreements, and disputes.
+XIX. Members agree that the EOS Support organization will be funding the EOS Respect treasury and will adjust the treasury based on recommendations from EOS Support Squad delegates and the EOS support organization.
+XX. Head Chief delegate, Chief delegates, and delegates of the EOS squad members could discuss feedback with the squads and the EOS support organization.
+XXI. If there is a consensus to make bylaw changes for the support squad, the head chief delegate will introduce the bylaw on-chain to be ratified by the chief delegates.
+XXII. Members agree that there will not be constant bylaw changes and that a bylaw ratified on-chain would not be considered an official.
+XXIII. All members agree that they have joined the EOS Respect community at their will and shall not hold the EOS Support organization liable.)";
