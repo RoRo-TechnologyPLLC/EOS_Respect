@@ -163,5 +163,5 @@ XVIII. All EOS Support Squad members agree to discuss with the leadership of the
 XIX. Members agree that the EOS Support organization will be funding the EOS Respect treasury and will adjust the treasury based on recommendations from EOS Support Squad delegates and the EOS support organization.
 XX. Head Chief delegate, Chief delegates, and delegates of the EOS squad members could discuss feedback with the squads and the EOS support organization.
 XXI. If there is a consensus to make bylaw changes for the support squad, the head chief delegate will introduce the bylaw on-chain to be ratified by the chief delegates.
-XXII. Members agree that there will not be constant bylaw changes and that a bylaw ratified on-chain would not be considered an official.
+XXII. Members agree that there will not be constant bylaw changes and that a bylaw not ratified on-chain would not be considered official.
 XXIII. All members agree that they have joined the EOS Respect community at their will and shall not hold the EOS Support organization liable.)";
