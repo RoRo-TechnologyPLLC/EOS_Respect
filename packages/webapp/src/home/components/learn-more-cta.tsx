@@ -8,9 +8,9 @@ export const LearnMoreCTA = ({ className = "" }: Props) => (
     <div className={className}>
         <Container className="space-y-2.5">
             <Heading size={3}>
-                EOS support squads coordinate, build consensus and
-                elect delegates to spend pooled funds on projects
-                they see fit and gain respect.
+                The EOS Support Squads coordinate to identify their
+                respected members, build consensus, and reward with
+                pooled funds from elected delegates.
             </Heading>
             <Button
                 href="https://eossupport.io"
