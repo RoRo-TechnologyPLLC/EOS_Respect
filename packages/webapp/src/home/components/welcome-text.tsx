@@ -29,9 +29,9 @@ const FirstParagraph = ({ className = "" }: { className?: string }) => (
 const SecondParagraph = ({ className = "" }: { className?: string }) => (
     <div className={"space-y-2.5 " + className}>
         <Text>
-            Individual members can maximize their independence by becoming
-            an EOS support squad member and just recieving some pooled funds
-            and collaborating for the betterment of EOS and EOS support.
+            Individual members can maximize their independence by joining
+            the EOS Support Squads to receive pooled funds and collaborate
+            for the betterment of EOS and EOS Support.
         </Text>
         <Text>
             To learn more, visit{" "}
